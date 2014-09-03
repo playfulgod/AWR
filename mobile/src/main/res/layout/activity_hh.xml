@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".HhActivity">
+
+    <ImageView
+        android:id="@+id/awr_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/awr3"/>
+    <TextView
+        android:id="@+id/awr_intro"
+        android:text="@string/awr_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/awr_img"/>
+
+    <TextView
+        android:id="@+id/awr_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/awr_img"
+        android:text="@string/awr_txt2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/awr_txt2"
+        android:text="@string/btn_reboot"
+        android:id="@+id/reboot"
+        android:background="@drawable/selector" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/reboot"
+        android:text="@string/btn_reboot_rec"
+        android:id="@+id/recovery"
+        android:background="@drawable/selector" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/recovery"
+        android:text="@string/btn_bootloader"
+        android:id="@+id/bootloader"
+        android:background="@drawable/selector" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/bootloader"
+        android:text="@string/btn_pwroff"
+        android:id="@+id/poweroff"
+        android:background="@drawable/selector" />
+
+</RelativeLayout>
+    </ScrollView>

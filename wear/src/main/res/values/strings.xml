@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Wear Rebooter</string>
+    <string name="btn_reboot">Reboot</string>
+    <string name="btn_reboot_rec">Reboot Recovery</string>
+    <string name="btn_bootloader">Reboot Bootloader</string>
+    <string name="btn_pwroff">Power Off</string>
+
+</resources>
